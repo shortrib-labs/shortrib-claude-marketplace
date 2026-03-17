@@ -1,10 +1,17 @@
 {
   "name": "crdant",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Personal toolkit — writing taste, editing commands, daily workflow, practitioner voice.",
   "author": {
     "name": "Chuck Dries",
     "url": "https://github.com/crdant"
   },
-  "keywords": ["writing", "taste", "editing", "voice", "standup", "style"]
+  "keywords": [
+    "writing",
+    "taste",
+    "editing",
+    "voice",
+    "standup",
+    "style"
+  ]
 }
