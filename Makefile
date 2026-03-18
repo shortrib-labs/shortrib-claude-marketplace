@@ -1,4 +1,4 @@
-PLUGIN_JSON := .claude-plugin/plugin.json
+PLUGIN_JSON := plugins/crdant/.claude-plugin/plugin.json
 VERSION := $(shell python3 -c "import json; print(json.load(open('$(PLUGIN_JSON)'))['version'])")
 
 .PHONY: version patch minor major release
