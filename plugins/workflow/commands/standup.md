@@ -14,7 +14,7 @@ Help me prepare for my standup.
 
 ## Build the narrative
 
-Before writing, read `${CLAUDE_PLUGIN_ROOT}/skills/taste/SKILL.md` and apply all rules with the "Professional Narrative" adaptation.
+Before writing, use the taste skill and apply all rules with the "Professional Narrative" adaptation.
 
 6. **Open with progress against yesterday's plan.** For each item from step 1, note whether it landed, shifted, or stalled. Don't belabor items that carried over — just acknowledge them.
 

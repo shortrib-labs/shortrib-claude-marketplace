@@ -1,0 +1,15 @@
+{
+  "name": "writing",
+  "version": "1.0.0",
+  "description": "Writing voice skills and editing commands that apply taste to real work.",
+  "author": {
+    "name": "Chuck Dries",
+    "url": "https://github.com/crdant"
+  },
+  "keywords": [
+    "writing",
+    "editing",
+    "voice",
+    "style"
+  ]
+}

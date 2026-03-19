@@ -10,7 +10,7 @@ Give feedback on the file at `$ARGUMENTS`. Do not modify any files — this comm
 
 ## Process
 
-1. **Load the taste skill** by reading `${CLAUDE_PLUGIN_ROOT}/skills/taste/SKILL.md`. Internalize the taste profile and style rules.
+1. **Load the taste skill.** Internalize the taste profile and style rules.
 
 2. **Read the target file** at `$ARGUMENTS`. Read it twice — once for substance, once for voice.
 

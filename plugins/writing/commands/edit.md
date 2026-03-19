@@ -10,7 +10,7 @@ Rewrite the file at `$ARGUMENTS` in place, applying the voice skill.
 
 ## Process
 
-1. **Load the taste skill** by reading `${CLAUDE_PLUGIN_ROOT}/skills/taste/SKILL.md`. This contains the full taste profile and all style rules. Internalize it before touching the file.
+1. **Load the taste skill.** This contains the full taste profile and all style rules. Internalize it before touching the file.
 
 2. **Read the target file** at `$ARGUMENTS`. Understand what it's saying — the substance, the argument, the specifics.
 

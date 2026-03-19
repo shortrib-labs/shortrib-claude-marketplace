@@ -6,9 +6,24 @@
   },
   "plugins": [
     {
-      "name": "crdant",
-      "source": "./plugins/crdant",
-      "description": "Personal toolkit — writing taste, editing commands, daily workflow, practitioner voice."
+      "name": "taste",
+      "source": "./plugins/taste",
+      "description": "Editorial standards and writing taste — the canonical reference other plugins depend on."
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "description": "Writing voice skills and editing commands that apply taste to real work."
+    },
+    {
+      "name": "strategy",
+      "source": "./plugins/strategy",
+      "description": "Socratic guide for crafting strategy in the Rumelt/Larson style."
+    },
+    {
+      "name": "workflow",
+      "source": "./plugins/workflow",
+      "description": "Daily workflow tools — standup prep, calendar, Obsidian, Slack integration."
     }
   ]
 }

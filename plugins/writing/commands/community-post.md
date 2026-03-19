@@ -25,6 +25,6 @@ Write or complete a community post using the community-post voice skill.
    - Use active voice consistently
    - Vary word choice
 
-4. **Apply the taste skill's kill list.** Read `${CLAUDE_PLUGIN_ROOT}/skills/taste/SKILL.md` and remove any AI patterns, hedging, corporate bloat, or robotic structures. The community-post voice is specific about *how* to sound; the taste skill catches *what to avoid*.
+4. **Apply the taste skill's kill list.** Use the taste skill and remove any AI patterns, hedging, corporate bloat, or robotic structures. The community-post voice is specific about *how* to sound; the taste skill catches *what to avoid*.
 
 5. **Save the result** and show a brief summary of what was written or changed.

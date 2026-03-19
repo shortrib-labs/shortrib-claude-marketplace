@@ -1,26 +1,31 @@
 # crdant marketplace
 
-Personal Claude Code marketplace — writing taste, editing commands, and daily workflow skills.
+Personal Claude Code marketplace — writing taste, editing commands, strategy, and daily workflow.
 
 ## Structure
 
-This repo is a marketplace. The plugin lives in `plugins/crdant/`.
+This repo is a marketplace with four plugins:
+
+- `plugins/taste/` — Editorial standards foundation. Other plugins depend on this.
+- `plugins/writing/` — Editing commands and writing voices. Depends on taste.
+- `plugins/strategy/` — Strategic thinking framework. Depends on taste.
+- `plugins/workflow/` — Daily operations and tool integration. Depends on taste.
 
 ## Versioning
 
-The cached copy only updates when the version in
-`plugins/crdant/.claude-plugin/plugin.json` changes. **Always bump the version
-before publishing changes.**
+The cached copy only updates when the version in a plugin's
+`.claude-plugin/plugin.json` changes. **Always bump the version
+before publishing changes.** The `PLUGIN` variable is required:
 
 ```
-make patch     # 1.0.0 → 1.0.1
-make minor     # 1.0.0 → 1.1.0
-make major     # 1.0.0 → 2.0.0
-make release   # alias for patch
-make version   # print current version
+make patch PLUGIN=writing    # 1.0.0 → 1.0.1
+make minor PLUGIN=taste      # 1.0.0 → 1.1.0
+make major PLUGIN=workflow   # 1.0.0 → 2.0.0
+make release PLUGIN=strategy # alias for patch
+make version PLUGIN=taste    # print current version
 ```
 
 ## Config files
 
-`plugins/crdant/config/slack-people.yaml` is gitignored — it contains PII (names, Slack handles).
+`plugins/workflow/config/slack-people.yaml` is gitignored — it contains PII (names, Slack handles).
 Place it manually in the plugin directory; skills reference it via `${CLAUDE_PLUGIN_ROOT}/config/`.

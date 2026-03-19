@@ -1,0 +1,14 @@
+{
+  "name": "strategy",
+  "version": "1.0.0",
+  "description": "Socratic guide for crafting strategy in the Rumelt/Larson style.",
+  "author": {
+    "name": "Chuck Dries",
+    "url": "https://github.com/crdant"
+  },
+  "keywords": [
+    "strategy",
+    "planning",
+    "decision-making"
+  ]
+}

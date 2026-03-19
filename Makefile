@@ -1,4 +1,8 @@
-PLUGIN_JSON := plugins/crdant/.claude-plugin/plugin.json
+ifndef PLUGIN
+$(error PLUGIN is required. Usage: make patch PLUGIN=taste)
+endif
+
+PLUGIN_JSON := plugins/$(PLUGIN)/.claude-plugin/plugin.json
 VERSION := $(shell python3 -c "import json; print(json.load(open('$(PLUGIN_JSON)'))['version'])")
 
 .PHONY: version patch minor major release

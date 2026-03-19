@@ -10,7 +10,7 @@ Show what you'd change in `$ARGUMENTS` using tracked-changes notation. Do not mo
 
 ## Process
 
-1. **Load the taste skill** by reading `${CLAUDE_PLUGIN_ROOT}/skills/taste/SKILL.md`. Internalize the editorial standards.
+1. **Load the taste skill.** Internalize the editorial standards.
 
 2. **Read the target file** at `$ARGUMENTS`.
 
