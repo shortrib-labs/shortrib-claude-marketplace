@@ -1,10 +1,10 @@
-# crdant marketplace
+# shortrib-labs
 
-Personal Claude Code marketplace — writing taste, editing commands, strategy, and daily workflow.
+Personal Claude Code plugin collection — writing taste, editing commands, strategy, and daily workflow.
 
 ## Structure
 
-This repo is a marketplace with four plugins:
+This repo has four plugins:
 
 - `plugins/taste/` — Editorial standards foundation. Other plugins depend on this.
 - `plugins/writing/` — Editing commands and writing voices. Depends on taste.
