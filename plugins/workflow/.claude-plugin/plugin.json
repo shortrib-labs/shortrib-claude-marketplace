@@ -1,7 +1,7 @@
 {
   "name": "workflow",
-  "version": "1.0.0",
-  "description": "Daily workflow tools — standup prep, calendar, Obsidian, Slack integration.",
+  "version": "1.1.0",
+  "description": "Daily workflow tools — standup prep, calendar, Obsidian, Slack integration, hypertext publishing.",
   "author": {
     "name": "Chuck Dries",
     "url": "https://github.com/crdant"
