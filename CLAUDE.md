@@ -46,6 +46,33 @@ make version PLUGIN=taste    # print current version
 
 The authoring loop: edit files → bump version → commit → push/merge to main.
 
+## Testing Locally
+
+**Single plugin** (quickest for iterating on one plugin):
+
+```bash
+claude --plugin-dir ./plugins/writing
+```
+
+Repeat the flag to load multiple plugins (e.g. writing + its taste dependency):
+
+```bash
+claude --plugin-dir ./plugins/taste --plugin-dir ./plugins/writing
+```
+
+**Full marketplace** (tests the complete install flow):
+
+This repo's `.claude-plugin/marketplace.json` already uses local `source` paths, so
+it works as a local marketplace without any hosting:
+
+```
+/plugin marketplace add ./
+/plugin install writing@shortrib-labs
+```
+
+After editing plugin files during a session, run `/reload-plugins` to pick up changes
+without restarting.
+
 ## Knowledge Store
 
 Documented solutions, conventions, and patterns live in `docs/solutions/`,
