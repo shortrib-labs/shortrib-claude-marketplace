@@ -11,6 +11,25 @@ This repo has four plugins:
 - `plugins/strategy/` — Strategic thinking framework. Depends on taste.
 - `plugins/workflow/` — Daily operations and tool integration. Depends on taste.
 
+Install `taste` before `writing` or `strategy` — those plugins reference it at runtime.
+
+## Plugin Anatomy
+
+Every plugin lives under `plugins/<name>/` with this layout:
+
+```
+plugins/<name>/
+  .claude-plugin/plugin.json   # Required: name, version, description, author, keywords
+  commands/<command>.md        # Slash commands — thin wrappers that delegate to skills
+  skills/<skill-name>/SKILL.md # Loadable context — authoritative process definitions
+```
+
+Commands provide the `/command-name` invocation surface. Skills hold the actual workflow
+logic. A command with a companion skill should be a thin wrapper: frontmatter + one
+delegation line. The skill is the single authoritative source.
+
+`plugin.json` is required for cache invalidation — see Versioning.
+
 ## Versioning
 
 The cached copy only updates when the version in a plugin's
@@ -24,6 +43,51 @@ make major PLUGIN=workflow   # 1.0.0 → 2.0.0
 make release PLUGIN=strategy # alias for patch
 make version PLUGIN=taste    # print current version
 ```
+
+The authoring loop: edit files → bump version → commit → push/merge to main.
+
+## Testing Locally
+
+**Single plugin** (quickest for iterating on one plugin):
+
+```bash
+claude --plugin-dir ./plugins/writing
+```
+
+Repeat the flag to load multiple plugins (e.g. writing + its taste dependency):
+
+```bash
+claude --plugin-dir ./plugins/taste --plugin-dir ./plugins/writing
+```
+
+**Full marketplace** (tests the complete install flow):
+
+This repo's `.claude-plugin/marketplace.json` already uses local `source` paths, so
+it works as a local marketplace without any hosting:
+
+```
+/plugin marketplace add ./
+/plugin install writing@shortrib-labs
+```
+
+After editing plugin files during a session, run `/reload-plugins` to pick up changes
+without restarting.
+
+## Knowledge Store
+
+Documented solutions, conventions, and patterns live in `docs/solutions/`,
+organized by category:
+
+- `conventions/` — authoring rules (versioning, file structure)
+- `architecture-patterns/` — structural patterns for plugin design
+
+Each file has YAML frontmatter with `module`, `problem_type`, `tags`, and
+`applies_when` fields for targeted search.
+
+**Search before implementing or debugging.** If you are adding a skill,
+command, or plugin feature — or diagnosing unexpected behavior — check
+`docs/solutions/` first. Use `grep` on frontmatter fields to narrow by
+module or tag.
 
 ## Config files
 
