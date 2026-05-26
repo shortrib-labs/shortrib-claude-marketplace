@@ -20,7 +20,7 @@ Swapping the em dash for a comma or period leaves the construct intact. The fix 
 
 **Example fix:** "The answer names specific actions, not general presence" → "The answer describes what the AE did."
 
-### Second Pattern: Parenthetical Insertion
+## Parenthetical Insertion
 
 A related but distinct problem: claims qualified by mid-sentence insertions — double em-dash asides, colon-dumps, `(X, Y, Z)` lists dropped into a sentence. These survive the negation/contrast fix because they don't use "not X" framing. Instead, they over-qualify by adding a bracketed elaboration that should be its own sentence.
 
@@ -30,7 +30,7 @@ The deeper problem is rhythm. When a sentence starts strong and then stalls for 
 
 **Fix:** Remove the parenthetical. Ask whether the sentence still says what needs to be said. If yes, cut it. If not, promote it to its own sentence.
 
-Run this as a second targeted pass after the negation/contrast pass — catching one doesn't catch the other.
+Run this as a second targeted pass after the negation/contrast pass when the piece is second-draft or later — catching one doesn't catch the other.
 
 ## Draft Maturity Framework
 
