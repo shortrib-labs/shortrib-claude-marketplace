@@ -17,9 +17,10 @@ what `/edit` is for.
 
 2. **Read the target file** at `$ARGUMENTS`.
 
-3. **Sweep for each word** in the skill's lists — tone leaks, authority-
-   undercutters, dead weight. For each hit, apply the test: cut if the meaning
-   survives, swap if the tone leaks. Edit in place with the Edit tool.
+3. **Sweep for each word** in the skill's lists — tone leaks, affirmative
+   framing (double negatives, "can't until"), authority-undercutters, and dead
+   weight. For each hit, apply the test: cut if the meaning survives, swap if the
+   tone leaks. Edit in place with the Edit tool.
 
 4. **Stay word-level.** Delete words, swap words, tighten phrases. Don't
    reorganize, don't rewrite whole sentences, don't touch structure or
