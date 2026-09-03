@@ -1,6 +1,6 @@
 {
   "name": "workflow",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Daily workflow tools -- standup prep, calendar, Obsidian, Slack integration, inbox processing, hypertext publishing.",
   "author": {
     "name": "Chuck Dries",

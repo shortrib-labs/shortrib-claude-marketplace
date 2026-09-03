@@ -1,0 +1,12 @@
+{
+  "name": "shortrib-labs/shortrib-claude-marketplace",
+  "mode": "managed",
+  "dependencies": {
+    "local/slack-standup": {
+      "source": "file:./plugins/workflow/skills/slack-standup"
+    }
+  },
+  "agents": [
+    "claude-code"
+  ]
+}

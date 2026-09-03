@@ -1,0 +1,9 @@
+{
+  "name": "local/slack-standup",
+  "description": "Convert a standup note to Slack-ready text by replacing wiki-links with Slack channels and @mentions. Use when you have a standup note ready to post to Slack.",
+  "private": true,
+  "skills": [
+    "."
+  ],
+  "version": "0.1.0"
+}

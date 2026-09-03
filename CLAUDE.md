@@ -93,3 +93,5 @@ module or tag.
 
 `plugins/workflow/config/slack-people.yaml` is gitignored — it contains PII (names, Slack handles).
 Place it manually in the plugin directory; skills reference it via `${CLAUDE_PLUGIN_ROOT}/config/`.
+
+@AGENTS.md
