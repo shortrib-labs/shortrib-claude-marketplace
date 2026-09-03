@@ -1,0 +1,21 @@
+{
+  "name": "shortrib-labs/shortrib-claude-marketplace",
+  "mode": "managed",
+  "dependencies": {
+    "shortrib-labs/taste": {
+      "source": "file:./plugins/taste"
+    },
+    "shortrib-labs/writing": {
+      "source": "file:./plugins/writing"
+    },
+    "shortrib-labs/strategy": {
+      "source": "file:./plugins/strategy"
+    },
+    "shortrib-labs/workflow": {
+      "source": "file:./plugins/workflow"
+    }
+  },
+  "agents": [
+    "claude-code"
+  ]
+}
