@@ -1,0 +1,13 @@
+{
+  "name": "shortrib-labs/writing",
+  "version": "1.0.2",
+  "description": "Writing voice skills and editing commands that apply taste to real work. Install shortrib-labs/taste alongside it.",
+  "private": true,
+  "author": {
+    "name": "Chuck Dries",
+    "url": "https://github.com/crdant"
+  },
+  "repository": "https://github.com/shortrib-labs/shortrib-claude-marketplace",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}
