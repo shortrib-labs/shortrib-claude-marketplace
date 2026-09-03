@@ -7,6 +7,21 @@
         "mcp",
         "start"
       ]
+    },
+    "todoist": {
+      "type": "http",
+      "url": "https://ai.todoist.net/mcp"
+    },
+    "fetch": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ]
+    },
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
     }
   }
 }
