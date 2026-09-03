@@ -1,6 +1,7 @@
 ---
 name: draft-patterns
-description: Two editing lenses that layer on top of taste rules: the AI parenthetical construct (a sentence-structure problem, not a punctuation problem) and a draft maturity framework (first vs. second vs. near-final). Referenced by the workshop command; can also be loaded independently for targeted editing passes.
+description: >-
+  Two editing lenses that layer on top of taste rules: the AI parenthetical construct (a sentence-structure problem, not a punctuation problem) and a draft maturity framework (first vs. second vs. near-final). Referenced by the workshop command; can also be loaded independently for targeted editing passes.
 allowed-tools: Read
 ---
 

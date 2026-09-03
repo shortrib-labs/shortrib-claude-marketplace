@@ -1,6 +1,7 @@
 ---
 name: workshop
-description: Workshop fills the space between edit (mechanical polish) and critique (feedback only): collaborative development when the writer doesn't know exactly what the piece needs yet. Use when someone shares a draft file and wants a thinking partner — signals include "I'm stuck," "not sure where to start," "help me figure out what this is trying to say," "let's work through this together," "fresh eyes before I share it," or handing over a rough draft or brain dump without a specific instruction. Reads the piece, assesses its developmental stage, and works iteratively toward the writer's goal over multiple turns.
+description: >-
+  Workshop fills the space between edit (mechanical polish) and critique (feedback only): collaborative development when the writer doesn't know exactly what the piece needs yet. Use when someone shares a draft file and wants a thinking partner — signals include "I'm stuck," "not sure where to start," "help me figure out what this is trying to say," "let's work through this together," "fresh eyes before I share it," or handing over a rough draft or brain dump without a specific instruction. Reads the piece, assesses its developmental stage, and works iteratively toward the writer's goal over multiple turns.
 allowed-tools: Read, Edit
 ---
 
