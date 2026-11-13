@@ -4,7 +4,7 @@
   "description": "Editorial standards and writing taste — the canonical reference other plugins depend on.",
   "private": true,
   "author": {
-    "name": "Chuck Dries",
+    "name": "Chuck D'Antonio",
     "url": "https://github.com/crdant"
   },
   "repository": "https://github.com/shortrib-labs/shortrib-claude-marketplace",
